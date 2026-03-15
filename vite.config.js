@@ -5,16 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.glb'],
-  optimizeDeps: {
-    include: ['three', '@react-three/fiber', '@react-three/drei', 'three-stdlib'],
-    esbuildOptions: {
-      target: 'esnext',
-    },
-  },
-  build: {
-    target: 'esnext',
-  },
-  resolve: {
-    dedupe: ['three', 'react', 'react-dom'],
-  },
 })
