@@ -12,14 +12,13 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-spring/three": "^9.7.3",
-    "@react-three/drei": "9.88.17",
-    "@react-three/fiber": "8.15.12",
+    "@react-three/drei": "9.74.0",
+    "@react-three/fiber": "8.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-merge-refs": "^2.1.1",
     "react-router-dom": "^6.17.0",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.159.0"
+    "three": "0.153.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
